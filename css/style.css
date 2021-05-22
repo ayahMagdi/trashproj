@@ -132,6 +132,11 @@ nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
 	line-height: 1.8;
 
 }
+.header .header-content .header-desc.special
+{
+	width: 60%;
+	margin: 10px auto
+}
 .header .header-content .header-button,
 .services .services-button
 {
@@ -204,6 +209,7 @@ nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
 .about-us .about-content .about-symbol
 {
 	color: #9cc026;
+	/*font-family: 'Pattaya', sans-serif;*/
 }
 
 
@@ -328,6 +334,15 @@ nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
 {
 	margin-top: 10px
 }
+.testimonials .contact input[type=submit]
+{
+	margin-top: 20px;
+	transition: .5s
+}
+.testimonials .contact input[type=submit]:hover
+{
+	border: 1px solid #9cc026
+}
 .testimonials .testimonails-content .testimonails-title
 {
 	font-weight: bold;
@@ -399,7 +414,7 @@ hr
 {
 	margin-top: 30px;
 	position: relative;
-	margin-bottom: 80px
+	/*margin-bottom: 80px*/
 }
 .footer p
 {
@@ -409,11 +424,12 @@ hr
 }
 .footer .social-accounts
 {
-	position: absolute;
-	top: 150%;
-	left: 50%;
-	margin-top: 10px;
-	transform: translate(-50%,-50%);
+	/*position: absolute;*/
+	/*top: 150%;*/
+	/*left: 50%;*/
+	margin: 10px auto 30px;
+
+	/*transform: translate(-50%,-50%);*/
 }
 .footer .social-accounts span
 {
